@@ -17,7 +17,7 @@ def otvet (event):
     tex.delete(1.0,END)
     v=ent.get()
     if v=='':
-        result='Введи, блять, число xD'
+        result='Введи число xD'
     else:
         n1=int(v)
         randomNumber1=int(random()*200)
